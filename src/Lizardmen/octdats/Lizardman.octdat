@@ -1,0 +1,2324 @@
+{
+	id LIZARD.Characters.Humanoids.Lizardman.Variants.Shared
+	type CharacterTypeVariant
+	abstract
+	
+	names = 
+	[
+	Sssssss
+	ssss
+	Gonn
+	Smeik
+ 	Sathir
+	Machta
+	Stingtail
+	Irontail
+	Blackfin
+	Smokeskin-Killer
+	Spitter
+	Charassis
+	Anazazi
+	Tongue-Toad
+	Dead-Water
+	Sul-Xan
+	Kylong
+	Nathsar
+	Jarsath
+	Kunzar
+	Gideon
+	Darkwater
+	Soulrest
+	Shield-Scale
+	One-Eye
+	Matsu
+	Dog-Soldier
+	Shulassakar
+	Ribukan
+	Hrabaal
+	Tharai
+	Orochi
+	Bolas
+	Silvercurse
+	Silverblade
+	Redfang
+	Blacktalon
+	Calcos
+	Gah
+	Right-Wind
+	Darksquall
+	Naz'jan
+	Azsh'ir
+	Blackfathom
+	Blackscale
+	Bloodcursed
+	Bloodscale
+	Bloodwash
+	Coilfang
+	Coilskar
+	Daggerspine
+	Darkcrest
+	Deepsurge
+	Darkspine
+	Felrage
+	Hatecoil
+	Idra'kess
+	Murkwater
+	Naz'jar
+	Nazeshi
+	Rimescale
+	Riplash
+	Sashj'tar
+	Spitelash
+	Spitescale
+	Stormscale
+	Strashaz
+	Timeworn
+	Vashj'elan
+	Vilescale
+	Wrathscale
+	Zeth'jir
+	Zin'jatar
+	Zithreenai
+	Slithreen
+	Haghazed
+	Dhorentath
+	Di'Zok
+	Sel-Nok
+	Sarnshak
+	D'Vourk
+	Di'Varoc
+	Drisk
+	IllOmen
+	Talishan
+	Merrshaulk
+	Viper
+	Chelsith
+	Thuuga
+	Drolakis
+	Chardok
+	Kor-Sha
+	Syllok
+	Longchops
+	Snapjaw
+	WrongEye
+	Grimlock
+	Calaban
+	Tazthas
+	Elissk
+	Torsis
+	Varlox
+	Vlaix
+	Slytharn
+	Shiraz
+	Ssavan
+	Tsernin
+	Si'lith
+	Jarrakas
+	Gloska
+	Surrak
+	Icoryk
+	Dethyr
+	Sulassk
+	J'lok
+	Nellox
+	Krissk
+	Zozin
+	Tyvll
+	Szizz
+	Vhizzath
+	Slarn
+	Vassil
+	Biden
+	Clinton
+	Zuckerberg
+	Kethiss
+	Scekki
+	Xe'thas
+	Wrathnser
+	Valixx
+	Dektate
+	Valkan
+	Szeth
+	Ziraak
+	Syrthiss
+	Gilx
+	Aekun
+	Wyrlyk
+	Calzkaer
+	Nissarre
+	Silviss
+	Valseth
+	Dru'Shyv
+	Scarscale
+	Dranak
+	Yarr
+	Selethisk
+	Sothar
+	Serris
+	Kai
+	Kuinn
+	Rissar
+	Vethiz
+	Zilxx
+	Zylxx
+	Vly
+	Tarnis
+	Sypp
+	Dy'Xin
+	Anun
+	Desthir
+	Gorakris
+	Sathliss
+	Rellsin
+	Sokzar
+	Vilzix
+	Zathiid
+	Zhree
+	Rissner
+	Bonedust
+	Venetirsk
+	Ithelz
+	Vylkle
+	Xarthiz
+	Xalrithan
+	Vulraz
+	Vrang
+	Tzizizink
+	Ikslox
+	Nee
+	Vesk
+	Kulir
+	Griz
+	Civix
+	Havinox
+	Vaz
+	Mora
+	Serix
+	Hesskin
+	Kar
+	Varn
+	Maul
+	Thenn
+	Zildrax
+	Urx
+	]
+	
+	lexicon = <Oct.Humanoid.Lexicon>
+	
+	cosmeticSlots =
+	[
+		{
+			type CharacterCosmeticSlot
+			
+			name = Body
+			cosmetics =
+			[
+				<Oct.Characters.Humanoids.Body>
+			]
+		}
+		{
+			type CharacterCosmeticSlot
+			
+			name = Head
+			cosmetics =
+[
+	{
+	id LIZARD.Characters.Lizardman.Head.A
+	type HeadCharacterCosmetic
+	inherit LIZARD.Characters.Humanoids.Lizardman.Heads.Template
+	
+	name = Lizard Head
+	headScale = vector(.75, 1, 1)
+	
+	prefab = 
+	{
+		type Prefab
+		path = /Art/characters/Lizardman/Heads/LizardHead1.fbx					
+		name = Lizard Head
+		physics = false
+        autoGradient = false
+        behavior = SkinnedCharacterCosmeticBehavior
+        
+        material = 
+        {
+            type Material
+            _AOGradientOffset = 0
+            _AOGradientHeight = .75
+        }
+	}
+}
+	{
+	id LIZARD.Characters.Lizardman.Head.B
+	type HeadCharacterCosmetic
+	inherit LIZARD.Characters.Humanoids.Lizardman.Heads.Template
+	
+	name = Ophidian Head
+	headScale = vector(.75, 1, 1)
+	
+	prefab = 
+	{
+		type Prefab
+		path = /Art/characters/Lizardman/Heads/LizardHead2.fbx					
+		name = Ophidian Head
+		physics = false
+        autoGradient = false
+        behavior = SkinnedCharacterCosmeticBehavior
+        
+        material = 
+        {
+            type Material
+            _AOGradientOffset = 0
+            _AOGradientHeight = .75
+        }
+	}
+	}
+		{
+	id LIZARD.Characters.Lizardman.Head.C
+	type HeadCharacterCosmetic
+	inherit LIZARD.Characters.Humanoids.Lizardman.Heads.Template
+	
+	name = Snake Head
+	headScale = vector(.75, 1, 1)
+	
+	prefab = 
+	{
+		type Prefab
+		path = /Art/characters/Lizardman/Heads/LizardHead3.fbx					
+		name = Snake Head
+		physics = false
+        autoGradient = false
+        behavior = SkinnedCharacterCosmeticBehavior
+        
+        material = 
+        {
+            type Material
+            _AOGradientOffset = 0
+            _AOGradientHeight = .75
+        }
+	}
+	}
+	{
+	id LIZARD.Characters.Lizardman.Head.D
+	type HeadCharacterCosmetic
+	inherit LIZARD.Characters.Humanoids.Lizardman.Heads.Template
+	
+	name = Smeik Head
+	headScale = vector(.75, 1, 1)
+	
+	prefab = 
+	{
+		type Prefab
+		path = /Art/characters/Lizardman/Heads/LizardHead4.fbx					
+		name = Smeik Head
+		physics = false
+        autoGradient = false
+        behavior = SkinnedCharacterCosmeticBehavior
+        
+        material = 
+        {
+            type Material
+            _AOGradientOffset = 0
+            _AOGradientHeight = .75
+        }
+	}
+	}
+]
+}
+		{
+			type CharacterCosmeticSlot
+			
+			name = Mouth
+			cosmetics =
+			[
+				{
+					id LIZARD.Characters.Humanoids.Lizardman.Jaw1
+					type MouthCharacterCosmetic
+					inherit LIZARD.Characters.Humanoids.Lizardman.MouthTemplate
+					
+					name = LizardJaw1
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/Lizardman/Mouth/Jaw1.fbx					
+						name = LizardJaw1
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+					}
+				}
+				{
+					id LIZARD.Characters.Humanoids.Lizardman.Jaw2
+					type MouthCharacterCosmetic
+					inherit LIZARD.Characters.Humanoids.Lizardman.MouthTemplate
+					
+					name = LizardJaw2
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/Lizardman/Mouth/Jaw2.fbx					
+						name = LizardJaw2
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+					}
+				}
+				{
+					id LIZARD.Characters.Humanoids.Lizardman.Jaw4
+					type MouthCharacterCosmetic
+					inherit LIZARD.Characters.Humanoids.Lizardman.MouthTemplate
+					
+					name = LizardJaw4
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/Lizardman/Mouth/Jaw4.fbx					
+						name = LizardJaw4
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+					}
+				}
+			]
+		}
+		{
+			type CharacterCosmeticSlot
+			
+			name = Eyes
+			cosmetics =
+			[
+				{
+					id LIZARD.Characters.Humanoids.Lizardman.Eye1
+					type MirroredStaticCharacterCosmetic
+					inherit LIZARD.Characters.Humanoids.Lizardman.EyeTemplate
+					
+					name = LizardEye1
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/Lizardman/Eyes/LizEye1.fbx					
+						name = Lizard Eye1
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+					}
+				}
+				{
+					id LIZARD.Characters.Humanoids.Lizardman.Eye2
+					type MirroredStaticCharacterCosmetic
+					inherit LIZARD.Characters.Humanoids.Lizardman.EyeTemplate
+					
+					name = LizardEye2
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/Lizardman/Eyes/LizEye2.fbx					
+						name = Lizard Eye2
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+					}
+				}
+			]
+		}
+		{
+			type CharacterCosmeticSlot
+			
+			name = Nose
+			cosmetics =
+			[
+				{
+					id LIZARD.Characters.Humanoids.Lizardman.SCales1
+					type MirroredStaticCharacterCosmetic
+					inherit LIZARD.Characters.Humanoids.Lizardman.NoseTemplate
+					
+					name = LizScales1
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/Lizardman/Nose/LizScales1.fbx				
+						name = LizardNose1
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+					}
+				}
+			]
+		}
+		{
+			type CharacterCosmeticSlot
+			
+			name = Scar1
+			cosmetics =
+			[
+				{
+					id LIZARD.Characters.Humanoids.Lizardman.Scar1
+					type StaticCharacterCosmetic
+					inherit LIZARD.Characters.Humanoids.Lizardman.EyebrowTemplate
+					
+					name = Scar1
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/Lizardman/Eyebrows/LizScar1.fbx				
+						name = LizardScar1
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+					}
+				}
+				{
+					id LIZARD.Characters.Humanoids.Lizardman.Scar1None
+					type StaticCharacterCosmetic
+					inherit LIZARD.Characters.Humanoids.Lizardman.EyebrowTemplate
+					
+					name = LizardScar1none
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/Lizardman/Hair/LizHornsBALD.fbx				
+						name = LizardScar1None
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+					}
+				}
+			]
+		}
+		{
+			type CharacterCosmeticSlot
+			
+			name = Scar2
+			cosmetics =
+			[
+				{
+					id LIZARD.Characters.Humanoids.Lizardman.Scar2
+					type StaticCharacterCosmetic
+					inherit LIZARD.Characters.Humanoids.Lizardman.EyebrowTemplate
+					
+					name = Scar1
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/Lizardman/Eyebrows/LizScar2.fbx				
+						name = LizardScar1
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+					}
+				}
+				{
+					id LIZARD.Characters.Humanoids.Lizardman.Scar2None
+					type StaticCharacterCosmetic
+					inherit LIZARD.Characters.Humanoids.Lizardman.EyebrowTemplate
+					
+					name = LizardScar2None
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/Lizardman/Hair/LizHornsBALD.fbx				
+						name = LizardScar1None
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+					}
+				}
+			]
+		}
+		{
+			type CharacterCosmeticSlot
+			
+			name = Hair
+			cosmetics = 
+			[
+				{
+					id LIZARD.Characters.Humanoids.Lizardman.Horns1
+					type HairCharacterCosmetic
+					inherit LIZARD.Characters.Humanoids.Lizardman.HairTemplate
+					
+					name = LizardHorns1
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/Lizardman/Hair/LizHorns1.fbx					
+						name = LizardHorns1
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+					}
+					capPrefab = 
+					{
+						type Prefab
+						path = /Art/characters/Lizardman/Hair/LizHornsBALD.fbx					
+						name = LizardHorns1Cap
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+					}
+				}
+				{
+					id LIZARD.Characters.Humanoids.Lizardman.Horns3
+					type HairCharacterCosmetic
+					inherit LIZARD.Characters.Humanoids.Lizardman.HairTemplate
+					
+					name = LizardHorns3
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/Lizardman/Hair/LizHorns3.fbx					
+						name = LizardHorns3
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+					}
+					capPrefab = 
+					{
+						type Prefab
+						path = /Art/characters/Lizardman/Hair/LizHornsBALD.fbx					
+						name = LizardHorns3Cap
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+					}
+				}
+				{
+					id LIZARD.Characters.Humanoids.Lizardman.HornsBALD
+					type HairCharacterCosmetic
+					inherit LIZARD.Characters.Humanoids.Lizardman.HairTemplate
+					
+					name = LizardHornsBALD
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/Lizardman/Hair/LizHornsBALD.fbx					
+						name = LizardHornsBALD
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+					}
+					capPrefab = 
+					{
+						type Prefab
+						path = /Art/characters/Lizardman/Hair/LizHornsBALD.fbx					
+						name = LizardHornsBALD
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+					}
+				}
+			]
+		}
+	]
+     
+    audio = 
+    [
+        {
+            type AudioBankHandle
+            name = Grunt
+            handle = 
+            {
+                type AudioHandles
+            }
+        }
+        {
+            type AudioBankHandle
+            name = Hurt
+            handle = 
+            {
+                type AudioHandles
+            }
+        }
+        {
+            type AudioBankHandle
+            name = Death
+            handle = 
+            {
+                type AudioHandles
+            }
+        }
+        {
+            type AudioBankHandle
+            name = Cheer
+            handle = 
+            {
+                type AudioHandles
+            }
+        }
+    ]
+}		
+{
+	id LIZARD.Characters.Humanoids.Lizardman
+	type CharacterType
+	inherit Oct.Characters.Humanoids.Humanoid
+	
+	name = Lizardman
+	plural = Lizardmen
+	corpseType = <LIZARD.Items.Corpse.Humanoid.Lizardman>
+    
+	prefab = 
+	{
+		type Prefab
+		path = /Art/characters/Lizardman/Orc.fbx
+		name = Lizardman
+        behavior = CharacterBehavior
+        
+        animations = 
+        [
+            {
+                type Prefab
+                path = /Art/characters/Humanoid/Animations/HumanoidAnims.fbx
+            }
+            {
+                type Prefab
+                path = /Art/characters/Humanoid/Animations/HumanoidAnims_Blender2_93.fbx
+            }
+        ]
+	}
+	
+	skinColorFrom = color(.005, .638, .455)
+    skinColorTo = color(.638, .186, .122)
+	hairColorFrom = color(0.233, 0.198, 0.124)
+    hairColorTo = color(.147, .092, .092)
+    
+    hideName = Lizardman Scales
+    leatherName = Lizardman Leather
+    hideLeatherImportanceRange = .25
+    hideColor = color(.23, .282, .376)
+	
+	variants =
+	[
+		{
+			id LIZARD.Characters.Humanoids.Lizardman.Variants.Male
+			type CharacterTypeVariant
+			inherit LIZARD.Characters.Humanoids.Lizardman.Variants.Shared
+			
+			name = Male
+			gender = Male
+            weight = 1		
+
+names = 
+			[
+	Danak 
+	Barbarosa
+	Ganak 
+	Atrebe 
+	Venril 
+	Slardar 
+	Heem-Jas 
+	Iriki 
+	Kaiman 
+	Sotek 
+	Chosooth 
+	Wystan 
+	Kurn 
+	Kroq-Gar 
+	Gor-Rok 
+	Teheauinn 
+	Chita 
+	Sebek 
+	Rile
+	Kalithresh
+	Mazda
+	Cotat
+	Daehod
+	Hitol
+	Hagob
+	Saldaldian
+	Golia
+	Axmo
+	Ezrogz
+	Mocdi
+	Ixthal
+	Jaliss
+	Issal
+	Glosk
+	Gryzil
+	Izarod
+	Jaxxtz
+	Jondin
+	Kamzar
+	Xuurk
+	Kang
+	Boreas
+	Cecrops
+	Glycon
+	Tlaloc
+	Typhon
+	Zahhak
+	Slime
+	Valkiss
+	Merrik
+	Avess
+	Vylkorin
+	Chottal
+	Sscire
+	Syllokk
+	Guralz
+	Kisiz
+	Xatik
+	Sithis
+	Cazic
+	Sziths
+	Zhary
+	Bax
+	Sathgar
+	Braz
+	Kaliss
+	Zlith
+	Glish
+	Retssok
+	Vinnisk
+	Xakiti
+	Zaynx
+	Weer
+	Teemeeta
+	Xal-Nur
+	An-Zaw
+	Okaw
+	Big Head
+	Chuna
+	Gam-Kur
+	Glim
+	Tul
+	Heem-La
+	Huleeya
+	Im-Kilyana
+	Okan
+	Shei
+	Havik
+	Korbac
+	Broghild
+	Danzelot
+	Hildegunst
+	Tark
+	Tralossk
+	Slybly
+	Oxyotl
+	Slaan
+	Aman
+	Ovidios
+	Gryphius
+	Faxilian
+	Hartheim
+	Sartorius
+	Hilarius
+	Bosk
+	Nessin
+	ZeshissKish
+	Selrahc
+	Ozrid
+	Rissen
+	Sivv
+	Gilriss
+	Kordaz
+	Raakaz
+	Akikos
+	Grezsh
+	Ziliss
+	Svetann
+	Gresrik
+	Kerss
+	Khassp
+	Kyllik
+	Aeon
+	Rixol
+	Kulgarn
+	Kotiz
+	Derkeethus
+	Gulum-Ei
+	Jaree-Ra
+	Neetrenaza
+	Talen-Jei
+	Veezara
+	Gam-Kur
+	Silvac
+	Wayiteh
+	Ahaht
+	Ashgar
+	Chuxu
+	Eoki
+	Zuuk
+	Iokkas
+	Hjorn
+	Tuwul
+	Xukas
+	Baxilt
+	Ki-At
+	Kishi
+	Chakax
+	Nuxul
+	Olik
+	Kloxu
+	Mateem
+	Radithax
+	Druxith
+	Yaxhat
+	Wowen
+	Darroc
+	Chiss
+	Hax
+	Chaddor
+	Luis
+	Gria
+	Teuto
+	Skorge
+	Jiraduveja
+	Nachampassesa
+	Masargaka
+	Semsanitnwona
+	Mukangung
+	Fafner
+	Rak
+	Ghiosk
+	Kirn
+	Karnor
+	Vizk
+	Hivis
+	Azl
+	Skar
+	Yurlok
+	Bagamnan
+	Sseht
+	Yig
+	Sosuke
+	Seshiro
+	Dreekius
+	Kselis
+	Gideon
+	Nakai
+	Vekin
+	Quar-Tok
+	Ku-Quar
+	Darigaaz
+	Vindrax
+	Sleth
+	Slaan
+	Semuanya
+	Kecuala
+	Hamujj
+	S'ygma
+	S'Erum
+	Vashtar
+	Yallar
+	Bakyz
+	Nikross
+	Skorge
+	Naj'entus
+	Vek
+	Skar'this
+	Raj
+	Chilkrai
+	Kresh
+	Maelok
+	Hakkar
+	Avamerin
+	Lesale
+	Slark
+	Tetto
+	Karnor
+	Thulsa
+	Ilyan
+	Barnabas
+	Rask
+	Laryngitis
+	Im-Leet
+	Chiss
+	Coltix
+	Disimbal
+	Galluss
+	Ghrix
+	Dalnir
+	Issik
+	Kuzik
+	Jistarr
+	Kakriss
+	Lathiss
+	Galrizz
+	Valkiss
+	Glox
+	Rilsk
+	Talnisk
+	Revliss
+	Saryl
+	Savas
+	Saydith
+	Sethis
+	Skal
+	Sstven
+	Sakred
+	Svetann
+	Vleske
+	Vulrask
+	Vystrik
+	Zeliss
+	Urz
+	Hisk
+	Vylkorin
+			]			
+            
+            voices =
+            [
+                OrcMaleVoice1
+            ]
+			
+            audio = 
+            [
+                ?(name == Grunt) {
+                    type AudioBankHandle
+                    handle = 
+                    {
+                        type AudioHandles
+						audioChances = 
+						[
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Male/Grunt/Grunt1.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Male/Grunt/Grunt2.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Male/Grunt/Grunt3.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Male/Grunt/Grunt4.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Male/Grunt/Grunt5.wav
+									globalCooldown = 3
+								}
+							}
+                        ]
+                    }
+                }
+                ?(name == Hurt) {
+                    type AudioBankHandle
+                    handle = 
+                    {
+                        type AudioHandles
+						audioChances = 
+						[
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Male/Hurt/Hurt1.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio = 
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Male/Hurt/Hurt2.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio = 
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Male/Hurt/Hurt3.wav
+									globalCooldown = 3
+								}
+							}
+						]
+                    }
+                }
+                ?(name == Death) {
+                    type AudioBankHandle
+                    handle = 
+                    {
+                        type AudioHandles
+                        audioChances = 
+                        [
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Death/Death1.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Death/Death2.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Death/Death3.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Death/Death4.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Death/Death5.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Death/Death6.wav
+                                    globalCooldown = 3
+                                }
+                            }                    
+                        ]
+                    }
+                }
+                ?(name == Cheer) {
+                    type AudioBankHandle
+                    handle = 
+                    {
+                        type AudioHandles
+                        audioChances = 
+                        [
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Woo_1_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Woo_1_normal.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Woo_1_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Woo_2_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Woo_2_normal.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Woo_2_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Woo_3_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Woo_3_normal.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Woo_3_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_1_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_1_normal.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_1_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_2_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_2_normal.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_2_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_3_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_3_normal.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_3_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_4_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_4_normal.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_4_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 19
+                                audio = null
+                            }
+                        ]
+                    }
+                }
+            ]
+		}
+		{
+			id LIZARD.Characters.Humanoids.Lizardman.Variants.Female
+			type CharacterTypeVariant
+			inherit LIZARD.Characters.Humanoids.Lizardman.Variants.Shared
+			
+			name = Female
+			gender = Female
+            weight = 1
+			
+						names = 
+			[
+	Neh 
+	Hul 
+	Keshu 
+	Drusela 
+	Voy 
+	Styg 
+	Jaxsik-Orrn 
+	Namkang 
+	Jayawardene 
+	Lakaspassar
+	Avix
+	Inazea
+	Deeja
+	Keerava
+	Wujeeta
+	Censilie
+	Arzamia
+	Hyldia
+	Yette
+	Shidako
+	Sakiko
+	Sachi
+	Kadena
+	Shisato
+	Azshara
+	Vashj
+	Semuanya
+	Kecuala
+	Angeborda
+	Ayane
+	Tessys
+	Iachsis
+	Rea-t-Shass
+	Sa'Sani
+	Sorlag
+	Popsipil
+	Kniesemilch
+	Yogibart
+	Naz'jar
+	Athissa
+	S'theno
+	Sira'kess
+	Nar'jira
+	Ophelia
+	Valishj
+	Zhahara
+	Seghulerak
+	Zuvexus
+	Slithice
+	Auroth
+	Jaga-Jaga
+	Shilza
+	Sathrozz
+	Dyreth
+	Dyvll
+	Elna
+	Garowin
+	Huzika
+	Ishka
+	Vellia
+	Karik
+	Klask
+	Kryssa
+	Kssshi
+	Silthiria
+	Lissys
+	Nithask
+	Prissaia
+	Serddonik
+	Shyzin
+	Silssa
+	Sirsi
+	Skethusk
+	Ssithina
+	Vissa
+	Varkazza
+	Vellia
+	Gax
+	Rik
+	Oriss
+	Shahvee
+	Velga
+			]
+			
+            voices =
+            [
+                OrcFemaleVoice1
+            ]
+            
+            audio = 
+            [
+                ?(name == Grunt) {
+                    type AudioBankHandle
+                    handle = 
+                    {
+                        type AudioHandles
+						audioChances = 
+						[
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Grunt/Grunt1.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Grunt/Grunt2.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Grunt/Grunt3.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Grunt/Grunt4.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Grunt/Grunt5.wav
+									globalCooldown = 3
+								}
+							}
+                        ]
+                    }
+                }
+				?(name == Hurt) {
+                    type AudioBankHandle
+                    handle = 
+                    {
+                        type AudioHandles
+						audioChances = 
+						[
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Hurt/Hurt1.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Hurt/Hurt2.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Hurt/Hurt3.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Hurt/Hurt4.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio = 
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Hurt/Hurt5.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio = 
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Hurt/Hurt6.wav
+									globalCooldown = 3
+								}
+							}
+						]
+                    }
+                }
+                ?(name == Death) {
+                    type AudioBankHandle
+                    handle = 
+                    {
+                        type AudioHandles
+                        audioChances = 
+                        [
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Death/Death1.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Death/Death2.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Death/Death3.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Death/Death4.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Death/Death5.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Death/Death6.wav
+                                    globalCooldown = 3
+                                }
+                            }                    
+                        ]
+                    }
+                }
+                ?(name == Cheer) {
+                    type AudioBankHandle
+                    handle = 
+                    {
+                        type AudioHandles
+                        audioChances = 
+                        [
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Yeah_1_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Yeah_1.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Yeah_1_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Yeah_2_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Yeah_2.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Yeah_2_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Yeah_3_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Yeah_3.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Yeah_3_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Woo_1_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Woo_1.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Woo_1_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Woo_2_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Woo_2.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Woo_2_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 19
+                                audio = null
+                            }
+                        ]
+                    }
+                }
+            ]
+		}
+        {
+			id LIZARD.Characters.Humanoids.Lizardman.Variants.NonBinary
+			type CharacterTypeVariant
+			inherit LIZARD.Characters.Humanoids.Lizardman.Variants.Male
+			inherit LIZARD.Characters.Humanoids.Lizardman.Variants.Female
+			
+			name = Nonbinary
+			gender = Nonbinary
+            weight = 1
+		}
+	]
+	
+	opinions = 
+	[
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Characters.Humanoids.Orc>
+			center = -0.01
+			range = 1.25
+			exp = 4
+		}
+				{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <LIZARD.Characters.Humanoids.Lizardman>
+			center = .25
+			range = 1.25
+			exp = 4
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Characters.Humanoids.Human>
+			center = -.115
+			range = 1.25
+			exp = 3
+            minSimilarity = -.75
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.RawMeat.Boar>
+			center = .5
+			range = 1.5
+            exp = 2
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.RawMeat.Cow>
+			center = -.5
+			range = 1.5
+            exp = 2
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.RawMeat.Human>
+			center = 0
+			range = 1
+            exp = 3
+            minSimilarity = -1
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.RawMeat.Orc>
+			center = .25
+			range = 1.25
+            exp = 2
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.RawMeat.Imp>
+			center = .5
+			range = 1.5
+            exp = 2
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.CookedMeat.Boar>
+			center = -.5
+			range = 1.5
+			exp = 3
+            minSimilarity = -.5
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.CookedMeat.Cow>
+			center = -.5
+			range = 1.5
+			exp = 3
+            minSimilarity = -.5
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.CookedMeat.Human>
+			center = .5
+			range = 1.5
+			exp = 4
+            minSimilarity = -.5
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.CookedMeat.Orc>
+			center = .25
+			range = 1.25
+			exp = 3
+            minSimilarity = -.75
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.CookedMeat.Imp>
+			center = -.5
+			range = 1.5
+			exp = 4
+            minSimilarity = -.5
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.Octoberberries>
+			center = .125
+			range = 1.125
+			exp = 4
+            minSimilarity = -.875
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.TravelMeals>
+			center = .125
+			range = 1.125
+			exp = 8
+            minSimilarity = 0
+		}
+		{
+			type CorpseProductCharacterTypeOpinionRange
+			characterType = <Oct.Characters.Animals.Boar>
+			center = -.25
+			range = 1.25
+            exp = 3
+            minSimilarity = -.75
+		}
+		{
+			type CorpseProductCharacterTypeOpinionRange
+			characterType = <Oct.Characters.Animals.Cow>
+			center = -.25
+			range = 1.25
+            exp = 3
+            minSimilarity = -.75
+		}
+		{
+			type CorpseProductCharacterTypeOpinionRange
+			characterType = <Oct.Characters.Humanoids.Orc>
+			center = .25
+			range = 1.25
+            exp = 3
+		}
+				{
+			type CorpseProductCharacterTypeOpinionRange
+			characterType = <LIZARD.Characters.Humanoids.Lizardman>
+			center = .25
+			range = 1.25
+            exp = 3
+		}
+		{
+			type CorpseProductCharacterTypeOpinionRange
+			characterType = <Oct.Characters.Humanoids.Human>
+			center = 0.25
+			range = 1
+            exp = 2
+		}
+		{
+			type CorpseProductCharacterTypeOpinionRange
+			characterType = <Oct.Characters.Monsters.LesserImp>
+			center = -.25
+			range = 1.25
+            exp = 3
+		}
+	]
+	
+	animations =
+	[
+		{
+			type AnimationTrack			
+			name = Armature|React
+			notifies = 
+			[
+				{
+					type AudioHandleNotify
+					time = 0
+					name = Hurt
+				}
+			]
+		}
+	]
+}
+// cosmetic templates
+{
+	id LIZARD.Characters.Humanoids.Lizardman.MouthTemplate
+	type MouthCharacterCosmetic
+	abstract
+	
+	headScaled = vector(0, 0, 0)
+    flapScale = vector(.5, 1, 1)
+	
+	boneTransforms = 
+	[
+		{
+			type StaticCharacterCosmeticTransform
+			bone = Face
+			rotation = rotation(0, 0, 0)
+			translation = vector(0, -0.029, 0.08)
+		}
+	]
+					
+    instanceColors =
+    [
+        {
+            type InstanceCosmeticMaterialColor
+            from = color(.75, .75, .75)
+            to = color(1, 1, 1)
+            materials = 
+            [
+                Teeth
+            ]
+        }
+				       {
+            type InstanceCosmeticMaterialColor
+            from = color(1, 0.947, 0.799)
+            to = color(1, 0.947, 0.799)
+            materials = 
+            [
+                Belly
+            ]
+        }
+						       {
+            type InstanceCosmeticMaterialColor
+            from = color(0.615, 0.413, 0.386)
+            to = color(0.615, 0.413, 0.386)
+            materials = 
+            [
+                dark scale
+            ]
+        }
+    ]
+	
+	scaleRange = vector(0, 0, 0)
+	offsetRange = vector(0, 0, 0)
+}
+{
+	id LIZARD.Characters.Humanoids.Lizardman.EyeTemplate
+	type MirroredStaticCharacterCosmetic
+	abstract
+	
+	headScaled = vector(1, 0, 0)
+	
+	boneTransforms = 
+	[
+		{
+			type StaticCharacterCosmeticTransform
+			bone = Face
+			rotation = rotation(0, 5, 0)
+			translation = vector(.074, .0397, 0.126)
+		}
+	]
+					
+    instanceColors =
+    [
+        {
+            type InstanceCosmeticMaterialColor
+            from = color(0, 0, 0)
+            to = color(.25, .25, .25)
+            materials = 
+            [
+                Iris.001
+            ]
+        }
+		       {
+            type InstanceCosmeticMaterialColor
+            from = color(0.8, 0.8, 0.8)
+            to = color(0.8, .8, .8)
+            materials = 
+            [
+                Material
+            ]
+        }
+		       {
+            type InstanceCosmeticMaterialColor
+            from = color(0.281, 0.062, 0.152)
+            to = color(0.044, 0.009, 0.018)
+            materials = 
+            [
+                Material.008
+            ]
+        }
+		        {
+            type InstanceCosmeticMaterialColor
+            from = color(0, 0, 0)
+            to = color(.001, .001, .001)
+            materials = 
+            [
+                Iris
+            ]
+        }
+		        {
+            type InstanceCosmeticMaterialColor
+            from = color(0.984, 0.97, 0.897)
+            to = color(.113, .943, 1)
+            materials = 
+            [
+                IrisRed
+            ]
+        }
+    ]
+	
+	scaleRange = vector(0, 0, 0)
+	offsetRange = vector(0, 0, 0)
+}
+{
+	id LIZARD.Characters.Humanoids.Lizardman.NoseTemplate
+	type MirroredStaticCharacterCosmetic
+	abstract
+	
+	headScaled = vector(1, 0, 0)
+	
+	boneTransforms = 
+	[
+		{
+			type StaticCharacterCosmeticTransform
+			bone = Face
+			rotation = rotation(0, 8, 0)
+			translation = vector(.1175, 0.0212, .059)
+		}
+	]
+					
+    instanceColors =
+    [
+        {
+            type InstanceCosmeticMaterialColor
+            from = color(0, 0, 0)
+            to = color(0, 0, 0)
+            materials = 
+            [
+                ScalesDark
+            ]
+			            inheritSkin = 0.75
+        }
+    ]
+	
+	scaleRange = vector(.25, .2, .2)
+	offsetRange = vector(.001, .01, 0)
+}
+{
+	id LIZARD.Characters.Humanoids.Lizardman.EyebrowTemplate
+	type StaticCharacterCosmetic
+	abstract
+	
+	headScaled = vector(1, 0, 0)
+	
+	boneTransforms = 
+	[
+		{
+			type StaticCharacterCosmeticTransform
+			bone = Face
+			rotation = rotation(0, 0, 0)
+			translation = vector(0, 0, 0)
+		}
+	]
+					
+    instanceColors =
+    [
+        {
+            type InstanceCosmeticMaterialColor
+            linearColor = true
+            from = color(1, 0.881, 0.773)
+            to = color(1, .456, .493)
+            materials = 
+            [
+                Scar
+            ]
+        }
+    ]
+
+	scaleRange = vector(0, 0, 0)
+	offsetRange = vector(0, 0, 0)
+}
+{
+	id LIZARD.Characters.Humanoids.Lizardman.Heads.Template
+	type HeadCharacterCosmetic
+	abstract
+					
+    instanceColors =
+    [
+        {
+            type InstanceCosmeticMaterialColor
+            materials = 
+            [
+                Head
+            ]
+            inheritSkin = 1
+        }
+		 {
+            type InstanceCosmeticMaterialColor
+            from = color(1, 0.947, 0.799)
+            to = color(1, 0.947, 0.799)
+            materials = 
+            [
+                Belly
+            ]
+        }
+    ]
+}
+{
+	id LIZARD.Characters.Humanoids.Lizardman.HairTemplate
+	type StaticCharacterCosmetic
+	abstract
+
+	headScaled = vector(0, 0, 0)
+
+	boneTransforms = 
+	[
+		{
+			type StaticCharacterCosmeticTransform
+			bone = Face
+			rotation = rotation(0, 0, 0)
+			translation = vector(0, 0, 0)
+		}
+	]
+					
+    instanceColors =
+    [
+        {
+            type InstanceCosmeticMaterialColor
+            linearColor = true
+            from = color(0.233, 0.198, 0.124)
+            to = color(.147, .092, .092)
+            materials = 
+            [
+                Horn
+            ]
+            inheritHair = .5
+        }
+		        {
+            type InstanceCosmeticMaterialColor
+            materials = 
+            [
+                Skin
+            ]
+            inheritSkin = 1
+        }
+    ]
+}

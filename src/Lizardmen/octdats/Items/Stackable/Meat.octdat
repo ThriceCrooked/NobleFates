@@ -1,0 +1,40 @@
+// Cooked Meat
+{
+	id LIZARD.Items.Stackable.CookedMeat.Lizardman
+	type StackedFoodItemType
+	inherit Oct.Items.Stackable.CookedMeat
+	
+	name = Cooked Lizardman
+    subject = true
+    importance = .5
+    importanceRange = .25
+    carryChance = .125
+}
+{
+    id LIZARD.Items.Recipes.CookedMeat.Lizardman
+	type ItemRecipe
+    inherit Oct.Items.Recipes.CookedMeat
+	
+	type = <LIZARD.Items.Stackable.CookedMeat.Lizardman>
+	ingredients =
+	[
+		{
+			type ItemRecipeIngredient
+			filter = <LIZARD.Items.Stackable.RawMeat.Lizardman>
+			count = 1
+		}
+	]
+}
+
+// Raw Meat
+{
+	id LIZARD.Items.Stackable.RawMeat.Lizardman
+	type StackedFoodItemType
+	inherit Oct.Items.Stackable.RawMeat
+	
+	name = Raw Lizardman
+    subject = true
+    importance = .5
+    importanceRange = .25
+    carryChance = .0625
+}

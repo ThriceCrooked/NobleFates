@@ -1,0 +1,49 @@
+{
+	id LIZARD.Items.Corpse.Humanoid.Lizardman
+	type CorpseInstancedItemType
+	inherit Oct.Items.Corpse.Humanoid
+	
+	name = Lizardman Corpse
+    characterType = <LIZARD.Characters.Humanoids.Lizardman>
+    rawMeatType = <LIZARD.Items.Stackable.RawMeat.Lizardman>
+    cookedMeatType = <LIZARD.Items.Stackable.CookedMeat.Lizardman>
+    maxDurability = 80
+	
+    prefab = 
+	{
+		type Prefab
+		path = /Art/characters/Human/CorpseItem.fbx
+		name = Lizardman Corpse
+        behavior = CorpseItemBehavior
+        
+        material =
+        {
+            type Material
+            _Color = color(.3, .3, .0375)
+        }
+	}
+    
+    stats =
+	[
+		{
+			type InstancedItemStat
+			name = Value
+			formula = QualityQualityHalfDurability
+			min = 0
+			max = 3
+		}
+	]
+	
+	salvage =
+	[
+		{
+			type ExplicitItemSalvageComponent
+			itemType = <LIZARD.Items.Stackable.RawMeat.Lizardman>
+			count = 12
+		}
+		{
+			type HideItemSalvageComponent
+			count = 8
+		}
+	]
+}
